@@ -12,6 +12,21 @@
       }
     }
   },
+  "a5-04-01" : {
+    "desc": {
+      "native": {
+        "devName": "Temperature Sensor Range 0°C to +40°C, Humidity 0% to 100%",
+        "iobObjects": [
+          {"id": "temperature","common.name": "Temperature","common.type": "number","common.min": "0","common.max": "40","common.def": "0",
+            "common.role": "value.temperature", "common.states" : "", "common.read": "true", "common.write": "false", "common.unit": "°C"},
+          {"id": "humidity","common.name": "Humidity","common.type": "number","common.min": "0","common.max": "100","common.def": "0",
+            "common.role": "value.humidity", "common.states" : "", "common.read": "true", "common.write": "false", "common.unit": "%"},
+          {"id": "learn_button","common.name": "Learn Button","common.type": "boolean","common.min": "false","common.max": "true","common.def": "false",
+            "common.role": "state", "common.states" : "false:teach-in telegram;true:data telegram", "common.read": "true", "common.write": "false"}
+        ]
+      }
+    }
+  },
   "a5-07-01" : {
     "desc": {
       "native": {

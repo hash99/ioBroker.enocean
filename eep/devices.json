@@ -190,6 +190,27 @@
       ]
     }
   },
+  "ID RF": {
+    "STPH-2-1-05": {
+      "desc": {
+        "en": "STPH-2  Wireless Room Temperature Sensor",
+        "de": "STPH-2  Funk-Raumtemperaturfühler",
+        "ru": "STPH-2  Wireless Room Temperature Sensor",
+        "pt": "STPH-2  Wireless Room Temperature Sensor",
+        "nl": "STPH-2  Wireless Room Temperature Sensor",
+        "fr": "STPH-2  Wireless Room Temperature Sensor",
+        "it": "STPH-2  Wireless Room Temperature Sensor",
+        "es": "STPH-2  Wireless Room Temperature Sensor",
+        "pl": "STPH-2  Wireless Room Temperature Sensor"
+      },
+      "eep": [
+        {
+          "val": "A5-04-01",
+          "type": "native"
+        }
+      ]
+    }
+  },
   "THERMOKON": {
     "SR4_7": {
       "desc": {

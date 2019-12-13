@@ -1,6 +1,7 @@
 
 var eepTable = {
     a5_02_05_native: require('./a5-02-05.js'),
+    a5_04_01_native: require('./a5-04-01.js'),
     a5_07_01_native: require('./a5-07-01.js'),
     a5_12_01_native: require('./a5-12-01.js'),
     a5_14_0a_native: require('./a5-14-0a.js'),
